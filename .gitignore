@@ -4,5 +4,8 @@
 # Log file
 *.log
 
-.idea/*
+.idea
+*.iml
 
+# Maven Files
+target
