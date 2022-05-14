@@ -40,7 +40,6 @@ public class FollowLinkTest extends TestDataAndDriverProvider {
                 new Object[]{"internet explorer", "11", "Windows 8.1"},
                 new Object[]{"safari", "12.0", "macOS 10.14"},
                 new Object[]{"chrome", "72", "macOS 10.13"},
-                new Object[]{"firefox", "latest-1", "Windows 7"},
         };
     }
 
