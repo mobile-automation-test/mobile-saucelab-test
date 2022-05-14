@@ -43,7 +43,7 @@ public class TestDataAndDriverProvider {
         // set desired capabilities to launch appropriate browser on Sauce
         capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
         capabilities.setCapability(CapabilityType.VERSION, version);
-        capabilities.setCapability(CapabilityType.PLATFORM, os);
+        capabilities.setCapability(CapabilityType.PLATFORM_NAME, os);
         capabilities.setCapability("name", methodName);
 
         if (buildTag != null) {
